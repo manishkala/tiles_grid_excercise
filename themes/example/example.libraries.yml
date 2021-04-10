@@ -1,0 +1,11 @@
+global-css:
+  css:
+    theme:
+      css/style1.css: {}
+global-js:
+  js:
+    js/isotope.pkgd.min.js : {}
+    js/script.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery

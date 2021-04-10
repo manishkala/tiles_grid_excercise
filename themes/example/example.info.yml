@@ -1,0 +1,10 @@
+name: example
+type: theme
+description: Theme that uses the css3 display flexible box model.
+package: Other
+core: 8.x
+base theme: stable
+
+libraries:
+  - example/global-css
+  - example/global-js
