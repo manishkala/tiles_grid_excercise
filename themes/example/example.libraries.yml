@@ -1,7 +1,7 @@
 global-css:
   css:
     theme:
-      css/style1.css: {}
+      css/style.css: {}
 global-js:
   js:
     js/isotope.pkgd.min.js : {}
