@@ -1,0 +1,17 @@
+isotope:
+  version: 3.0.1
+  js:
+    /js/isotope.pkgd.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+isotope_views:
+  version: VERSION
+  css:
+    component:
+      css/isotope_views.css: {}
+  js:
+    js/isotope_views.js: {}
+  dependencies:
+    - isotope_views/isotope
