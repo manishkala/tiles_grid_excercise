@@ -1,0 +1,25 @@
+uuid: 5a8114f4-43cf-4b47-bdea-b12e2390f333
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_youtube_videos
+    - node.type.tiles
+  module:
+    - video_embed_field
+id: node.tiles.field_youtube_videos
+field_name: field_youtube_videos
+entity_type: node
+bundle: tiles
+label: 'Youtube Videos'
+description: 'Add youtube video'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube: youtube
+    youtube_playlist: '0'
+    vimeo: '0'
+field_type: video_embed_field

@@ -1,0 +1,19 @@
+uuid: e7ea7312-48e8-4ccd-917c-90724000b01a
+langcode: en
+status: true
+dependencies:
+  module:
+    - fontawesome
+    - taxonomy
+id: taxonomy_term.field_tags_icon
+field_name: field_tags_icon
+entity_type: taxonomy_term
+type: fontawesome_icon
+settings: {  }
+module: fontawesome
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,13 @@
+roles:
+  anonymous:
+    theme: example
+    weight: '0'
+  authenticated:
+    theme: bartik
+    weight: '0'
+  administrator:
+    theme: bartik
+    weight: '0'
+  content_manager:
+    theme: bartik
+    weight: '0'

@@ -1,0 +1,23 @@
+uuid: 76d3da3f-4589-48c5-b43c-404a0e5937f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.tiles
+  module:
+    - text
+id: node.tiles.body
+field_name: body
+entity_type: node
+bundle: tiles
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

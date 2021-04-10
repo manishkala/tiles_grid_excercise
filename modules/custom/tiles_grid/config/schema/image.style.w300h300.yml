@@ -1,0 +1,14 @@
+uuid: 37cfa22b-9f78-4501-b353-314ebff6e295
+langcode: en
+status: true
+dependencies: {  }
+name: w300h300
+label: w300h300
+effects:
+  748c332c-d5ab-42b9-a5cd-52f2b66071a5:
+    uuid: 748c332c-d5ab-42b9-a5cd-52f2b66071a5
+    id: image_resize
+    weight: 1
+    data:
+      width: 300
+      height: 300

@@ -1,0 +1,25 @@
+uuid: 5554aa1f-c3b8-4a2a-bb63-c03e8a388789
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: tiles_queue
+label: 'Tiles Queue'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: node
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      tiles: tiles
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 0
+  max_size: 0
+  act_as_queue: false
+  reverse: false

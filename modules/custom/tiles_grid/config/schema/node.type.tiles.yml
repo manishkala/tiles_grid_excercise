@@ -1,0 +1,18 @@
+uuid: 7b34c396-32c5-4db6-b421-f512765b4e99
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Tiles
+type: tiles
+description: 'Creation of tiles grid for home page'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
