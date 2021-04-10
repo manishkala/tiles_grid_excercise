@@ -1,0 +1,8 @@
+uuid: b0f525fa-1b77-4562-aa0b-9da2f57a7083
+langcode: en
+status: true
+dependencies: {  }
+id: content-manager-menus
+label: 'Content Manager Menus'
+description: ''
+locked: false

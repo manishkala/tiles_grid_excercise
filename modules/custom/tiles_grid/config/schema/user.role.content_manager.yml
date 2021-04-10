@@ -1,0 +1,24 @@
+uuid: ab2f23c0-03e9-4d76-8739-3023dbf73da6
+langcode: en
+status: true
+dependencies: {  }
+id: content_manager
+label: 'Content Manager'
+weight: 3
+is_admin: null
+permissions:
+  - 'access content'
+  - 'access content overview'
+  - 'administer nodes'
+  - 'create article content'
+  - 'create terms in tags'
+  - 'create tiles content'
+  - 'delete any article content'
+  - 'delete any tiles content'
+  - 'delete terms in tags'
+  - 'edit any article content'
+  - 'edit any tiles content'
+  - 'edit terms in tags'
+  - 'manipulate entityqueues'
+  - 'update tiles_queue entityqueue'
+  - 'view the administration theme'

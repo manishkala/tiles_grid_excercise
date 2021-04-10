@@ -1,0 +1,14 @@
+uuid: 24056fba-504a-4efb-9a58-11b7b484792d
+name: 'Tiles grid exercise '
+mail: admin@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /my-isotope
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
