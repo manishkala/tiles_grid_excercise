@@ -1,0 +1,62 @@
+uuid: f90292d3-3dcb-4108-935f-e803e255733f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tiles.body
+    - field.field.node.tiles.field_add_image
+    - field.field.node.tiles.field_add_link
+    - field.field.node.tiles.field_article_reference
+    - field.field.node.tiles.field_tag
+    - field.field.node.tiles.field_youtube_videos
+    - image.style.large
+    - node.type.tiles
+  module:
+    - image
+    - text
+    - user
+    - video_embed_field
+id: node.tiles.default
+targetEntityType: node
+bundle: tiles
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_add_image:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_tag:
+    weight: 0
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_youtube_videos:
+    weight: 1
+    label: hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+hidden:
+  field_add_link: true
+  field_article_reference: true
+  links: true

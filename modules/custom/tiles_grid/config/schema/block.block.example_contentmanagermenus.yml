@@ -1,0 +1,33 @@
+uuid: 739078b8-db44-4785-adf4-a329ab5342f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.content-manager-menus
+  module:
+    - system
+    - user
+  theme:
+    - example
+id: example_contentmanagermenus
+theme: example
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:content-manager-menus'
+settings:
+  id: 'system_menu_block:content-manager-menus'
+  label: 'Manage Contents'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      content_manager: content_manager
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

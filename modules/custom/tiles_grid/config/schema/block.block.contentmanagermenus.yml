@@ -1,0 +1,33 @@
+uuid: 597b7665-5d57-46b2-8596-cf868455f5e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.content-manager-menus
+  module:
+    - system
+    - user
+  theme:
+    - bartik
+id: contentmanagermenus
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:content-manager-menus'
+settings:
+  id: 'system_menu_block:content-manager-menus'
+  label: 'Content Manager Menus'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      content_manager: content_manager
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

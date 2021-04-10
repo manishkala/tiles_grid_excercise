@@ -1,0 +1,31 @@
+uuid: 6219e7f5-93f5-48c6-b87a-0d85c2269b1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.tags.field_tags_icon
+    - taxonomy.vocabulary.tags
+  module:
+    - fontawesome
+    - text
+id: taxonomy_term.tags.default
+targetEntityType: taxonomy_term
+bundle: tags
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tags_icon:
+    weight: 1
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    type: fontawesome_icon_formatter
+    region: content
+hidden: {  }

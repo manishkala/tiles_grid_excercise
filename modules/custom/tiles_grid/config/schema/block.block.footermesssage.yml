@@ -1,0 +1,25 @@
+uuid: f56c092f-4368-45c9-8372-85092a3500d4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7f3368a7-13a7-4723-9ec6-95010d571188'
+  module:
+    - block_content
+  theme:
+    - example
+id: footermesssage
+theme: example
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:7f3368a7-13a7-4723-9ec6-95010d571188'
+settings:
+  id: 'block_content:7f3368a7-13a7-4723-9ec6-95010d571188'
+  label: 'Footer messsage'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
